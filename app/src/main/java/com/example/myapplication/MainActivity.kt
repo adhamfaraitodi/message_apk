@@ -22,4 +22,8 @@ class MainActivity : AppCompatActivity() {
         intent.putExtra(PESAN, pesan)
         startActivity(intent)
     }
+    fun call(view: View) {
+        val dialIntent = Intent(Intent.ACTION_DIAL)
+        startActivity(dialIntent)
+    }
 }
