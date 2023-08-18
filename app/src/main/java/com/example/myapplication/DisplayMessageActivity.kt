@@ -12,5 +12,6 @@ class DisplayMessageActivity : AppCompatActivity() {
         val textView = findViewById<TextView>(R.id.textView).apply {
             text = pesan
         }
+        setTitle("Pesan");
     }
 }
